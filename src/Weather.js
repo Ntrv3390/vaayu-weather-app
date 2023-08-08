@@ -1,4 +1,5 @@
 import React, { useState }  from 'react';
+import './App.css'
 
 function Weather() {
 
@@ -70,9 +71,9 @@ function Weather() {
   }
 
   return (
-    <>
-      <div className="container">
-        <h2 className="text-center mt-3">Get Started With Vaayu</h2>
+    <div>
+      <div className="container mt-5">
+        <h2 className="text-center mt-3 my-text">Get Started With Vaayu</h2>
         <div className="d-flex justify-content-center row justify-content-around mt-4">
           
           <div className="col-4"> 
@@ -212,7 +213,7 @@ function Weather() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
